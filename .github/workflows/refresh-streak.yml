@@ -1,0 +1,43 @@
+name: Refresh streak card
+
+on:
+  schedule:
+    - cron: '17 22 * * *'   # 05:17 WIB daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # The streak service is slow and times out often, so retry a few times.
+      # A failed fetch leaves the previously committed card in place.
+      - name: Fetch streak cards
+        run: |
+          fetch() {
+            for i in $(seq 1 8); do
+              if curl -sf --max-time 25 -o "$2.tmp" "$1" && grep -q "Current Streak" "$2.tmp"; then
+                mv "$2.tmp" "$2"
+                echo "fetched $2 on attempt $i"
+                return 0
+              fi
+              sleep 10
+            done
+            rm -f "$2.tmp"
+            echo "::warning::could not refresh $2, keeping the existing card"
+          }
+          fetch "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&hide_border=true" assets/streak.svg
+          fetch "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=dark&hide_border=true" assets/streak-dark.svg
+
+      - name: Commit if changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/streak.svg assets/streak-dark.svg
+          git diff --staged --quiet && echo "no change" && exit 0
+          git commit -m 'Refresh streak card'
+          git push

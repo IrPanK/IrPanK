@@ -71,8 +71,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=IrPanK&theme=dark&hide_border=true"/>
-    <img src="https://streak-stats.demolab.com/?user=IrPanK&hide_border=true" alt="GitHub streak"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IrPanK/IrPanK/main/assets/streak-dark.svg"/>
+    <img src="https://raw.githubusercontent.com/IrPanK/IrPanK/main/assets/streak.svg" alt="GitHub streak"/>
   </picture>
 </p>
 
