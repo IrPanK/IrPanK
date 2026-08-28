@@ -70,12 +70,28 @@
 ### 📊 GitHub stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=IrPanK&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=default" alt="Irfan's GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IrPanK&layout=compact&hide_border=true&langs_count=8&theme=default" alt="Top languages"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=IrPanK&theme=github_dark"/>
+    <img width="88%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=IrPanK&theme=default" alt="GitHub profile summary"/>
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=IrPanK&hide_border=true" alt="GitHub streak"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=IrPanK&theme=github_dark"/>
+    <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=IrPanK&theme=default" alt="Top languages by repo"/>
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=IrPanK&theme=github_dark"/>
+    <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=IrPanK&theme=default" alt="Top languages by commit"/>
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=IrPanK&theme=dark&hide_border=true"/>
+    <img src="https://streak-stats.demolab.com/?user=IrPanK&hide_border=true" alt="GitHub streak"/>
+  </picture>
 </p>
 
 ---
