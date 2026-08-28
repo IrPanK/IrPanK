@@ -89,8 +89,12 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=IrPanK&theme=dark&hide_border=true"/>
-    <img src="https://streak-stats.demolab.com/?user=IrPanK&hide_border=true" alt="GitHub streak"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=IrPanK&theme=github_dark"/>
+    <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=IrPanK&theme=default" alt="Commits, stars, PRs and issues"/>
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=IrPanK&theme=github_dark&utcOffset=7"/>
+    <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=IrPanK&theme=default&utcOffset=7" alt="Most productive time of day"/>
   </picture>
 </p>
 
