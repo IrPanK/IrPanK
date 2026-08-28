@@ -17,7 +17,7 @@
 
 - 🎓 **Information Systems, Universitas Indonesia** (2022–2026) — GPA 3.75/4.0.
 - 🏗️ Ex **Toyota Motor Manufacturing Indonesia**, **Arka Data**, **Gradient Academy** — feasibility studies, real-time dashboards, and growth features.
-- 👥 Led engineering orgs: **Group Director of Product at RISTEK** and **Vice Manager of IT Development at COMPFEST 16** (team of 30, 102k+ visitors).
+- 👥 Led engineering orgs: **Group Director of Product at RISTEK** (2025) and **Vice Manager of IT Development at COMPFEST 16** (2024, team of 30, 102k+ visitors).
 - ⚡ Cost-and-reliability nerd: cut infra cost **40%** by migrating cloud services to on-prem, and shipped CI/CD that removed the manual deploy step entirely.
 - 💬 Ask me about **TypeScript, Python, Go, NestJS, Next.js, PostgreSQL, AWS, Docker**.
 
@@ -64,20 +64,6 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
----
-
-### 🚀 Selected projects
-
-| Project | What it does | Stack |
-| --- | --- | --- |
-| **Jadi Kerja** | Mobile-first marketplace connecting blue-collar workers to jobs — map-based search, real-time chat, and an AI upskilling platform with courses and a chatbot. | Vue.js · NestJS · PostgreSQL · WebSocket · GPT API |
-| **Be Care** | Confidential mental-health consultation platform with a secure appointment booking system between users and psychologists. | Next.js · NestJS · PostgreSQL · WebSocket |
-| **Aigree** | Crop-planting advisor for farmers, combining weather APIs with LLM prompt engineering for tailored recommendations. | Next.js · NestJS · PostgreSQL · GPT API |
-| **Volker Dashboard** | Internal financial management system tracking income, outcomes, reimbursements, and incentives across users, teams, and projects. | Remix · PostgreSQL · Tailwind CSS |
-| **Stream Gift** | Real-time tool letting viewers send messages and videos straight into a live stream. | React · Express · WebSocket |
-| **Scene Recognition Model** | Custom NASNet-inspired deep learning model for scene classification, tuned end to end. | Python · PyTorch · scikit-learn |
-| **Financial Trend Prediction** | Multi-model system: regression for forecasting, classification for risk, clustering for segmentation. | Python · Pandas · Matplotlib · scikit-learn |
 
 ---
 
