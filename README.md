@@ -15,7 +15,6 @@
 
 ### 🧑‍💻 About me
 
-- 🔭 Currently a **Backend Engineer at SPUN Global** — building scalable RBAC and standing up AWS infrastructure for a new B2B platform from scratch.
 - 🎓 **Information Systems, Universitas Indonesia** (2022–2026) — GPA 3.75/4.0.
 - 🏗️ Ex **Toyota Motor Manufacturing Indonesia**, **Arka Data**, **Gradient Academy** — feasibility studies, real-time dashboards, and growth features.
 - 👥 Led engineering orgs: **Group Director of Product at RISTEK** and **Vice Manager of IT Development at COMPFEST 16** (team of 30, 102k+ visitors).
